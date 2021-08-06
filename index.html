@@ -112,30 +112,7 @@
       <p class="seconds_text">Seconds</p>
     </li>
   </ul>
-  <script type="text/javascript">
-    var d = new Date();
-    console.log(-d.getTimezoneOffset()/60);
-
-       $('#countdown-timer').countdown({
-        date: '08/01/2021 00:00:00',
-        offset: -d.getTimezoneOffset()/60,
-        
-        day: 'Day',
-        days: 'Days'
-      }, function () {
-        if (confirm("Proceed to competiton page?")) {
-          window.location.href = "https://audaxvquiz.web.app";
-        }
-        var ctrl = document.getElementById("learnMore");
-        ctrl.setAttribute("href","https://audaxvquiz.web.app");
-        ctrl.innerHTML= "Go To Quiz";
-      });
-
-
-      
-
-
-    </script>
+ 
   <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
     <defs>
       <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
